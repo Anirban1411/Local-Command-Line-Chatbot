@@ -145,7 +145,7 @@ Status Information:
             self._print_colored("Failed to load model. Please check your internet connection and try again.", "red")
             return False
         
-        self._print_colored("Chatbot initialized successfully!", "green")
+        self._print_colored("Chatbot initialized successfully! Ready to assist you 🚀", "green")
         return True
     
     def run(self):
